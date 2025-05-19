@@ -14,7 +14,7 @@ func numbers(ch chan int) {
 	close(ch)
 }
 
-func main() {
+func ExampleBuffers() {
 	// o segundo parâmetro sedine o buffer do canal, ou seja,
 	// quantos valores serão enviados para o canal antes de bloquear
 	// bloqueia o envio de valores quando atingi a capacidade, nessa caso 3

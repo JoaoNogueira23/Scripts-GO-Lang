@@ -12,7 +12,7 @@ func numbers(ch chan int) {
 	close(ch)
 }
 
-func main() {
+func ExampleRoutines() {
 	// Cria um canal
 	ch := make(chan int)
 
